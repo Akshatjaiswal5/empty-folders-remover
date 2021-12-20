@@ -3,7 +3,7 @@ import java.io.*;
 class del{
  static int count,totalcount;
  public static void main(String args[]){
-  File file= new File("D:\\Java3");
+  File file= new File("");
   recurse(file);
   
   System.out.println(totalcount+" directories found, "+count+" empty directories deleted.");
